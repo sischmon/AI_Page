@@ -20,7 +20,7 @@ $(document).ready(function(){
 
   let characterIndex = 0;
 
-  let titleNames = ["o", "os", "oss", "ossi", "ossia", "ossian", "ossians", "ossians.", "ossians.s", "ossians.se", "ossians.s", "ossians.", "ossians", "ossian", "ossia", "ossi", "oss", "os"];
+  let titleNames = ["s", "si", "sim", "simo", "simon", "simond", "simonde", "simondev", "simonde", "simond", "simon", "simo", "sim", "si", "s"];
 
   window.updateTitleName = function () {
       document.getElementsByTagName("title")[0].innerHTML = titleNames[characterIndex++ % titleNames.length];
