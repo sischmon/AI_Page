@@ -26,7 +26,7 @@ body::before{
     filter: blur(7px);
 }
 
-nav, footer, #about-text, #contact-container {
+nav, footer, #about-text {
     width: 100%;
 }
 
